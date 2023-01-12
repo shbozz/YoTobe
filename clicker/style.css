@@ -1,0 +1,31 @@
+html{
+    background-color: rgb(44, 41, 41);
+    font-family: sans-serif;
+}
+
+button{
+    background-color: red;
+    color: black;
+    border: 1px solid red;
+    font-size: 280px;
+    padding: 3px;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: blue;
+    color: black;
+    border: 1px solid blue;
+    font-size: 280px;
+    padding: 3px;
+    cursor: pointer;
+}
+
+h1{
+    text-align: center;
+    color: white;
+}
+
+h1:hover{
+    color: red;
+}

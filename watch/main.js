@@ -1,6 +1,6 @@
 player = document.getElementById("i");
 l = false;
-player.onclick = function() {
+function vidclick() {
     if (l) {
         player.src = URLSearchParams(document.location.search);
         player.play();

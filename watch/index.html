@@ -4,16 +4,18 @@
         <meta charset="utf-8">
         <title>Yotobé Media Viewer</title>
         <link rel="stylesheet" type="text/css" href="../style.css">
+        <link rel="stylesheet" type="text/css" href="./style.css">
         <div class="topnav">
             <a href="../index.html">Home</a>
             <a class="active" href="./index.html">View</a>
             <a href="../prefrences/index.html">Prefrences</a>
-            <a href="../account/index.html">Account</a>
+            <a href="../account/index.html" style="text-align: left">Account</a>
         </div>
     </head>
     <body>
-        <video controls>
-            <source src="" type="video/mp4" id="i" onclick="vidclick()">
+        <br>
+        <video controls onclick="vidClick()" id="v">
+            <source src="" type="video/mp4" id="i">
             video isn't supported in your browser
         </video>
         <script src="./main.js"></script>

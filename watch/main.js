@@ -1,14 +1,18 @@
-player = document.getElementById("i");
+src = document.getElementById("i");
+vid = document.getElementById("v");
 l = false;
-function vidclick() {
-    if (l) {
-        player.src = URLSearchParams(document.location.search);
-        player.play();
+window.onload = function () {
+    vidLocation = "../media/" + document.location.search.replace("?", "") + "v.mp4";
+    vid.src = vidLocation;
+    console.log(vidLocation);
+}
+function vidClick() {
+    if (vid.paused) {
+        vid.play();
+        console.log("playing");
     }
     else {
-        if (player.paused)
-            player.play();
-        else
-            player.pause();
+        vid.pause();
+        console.log("paused");
     }
 }

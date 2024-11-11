@@ -12,7 +12,7 @@ html{
     /* Style the links inside the navigation bar */
     .topnav a {
     float: left;
-    color: #f2f2f2;
+    color: white;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -21,15 +21,16 @@ html{
     
     /* Change the color of links on hover */
     .topnav a:hover {
-    background-color: #ddd;
-    color: black;
+        background-color: #62a0ea;
+        border-bottom: white 2px solid;
     }
     
     /* Add a color to the active/current link */
-    .topnav a.active {
-    background-color: #04AA6D;
-    color: white;
-    }
+.topnav a.active {
+    background-color: #26a269;
+    padding: 13px 15px;
+    border: white 2px solid;
+}
 
 h1 {
     color: white;
@@ -49,5 +50,3 @@ p {
 p:hover{
     color: lightgray;
 }
-
-
